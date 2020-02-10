@@ -9,7 +9,8 @@ input {
   border-radius: 5px;
   padding: 8px;
 }
-.loading{
+
+.loading {
   margin: 0 auto;
 }
 
@@ -103,7 +104,6 @@ img.img-btn-google {
   padding-top: 15px;
   width: 90%;
   font-size: 0.8em;
-
 }
 
 .bio {
@@ -155,8 +155,9 @@ img.img-btn-google {
 
 #greetings {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
+  display: block;
   padding: 20px 10px;
 }
 
@@ -306,12 +307,14 @@ img.img-btn-google {
 .btn-exit {
   background: #5108B0;
   color: #EDEDED;
+  font-size: 1em;
+  font-weight: bold;
 }
 
 .btn-exit:hover {
-  border: 2px solid #EDEDED;
+  background-color: #EDEDED;
+  color: #5108B0;
 }
-
 
 .btn-like {
   background: rgb(199, 165, 255);
@@ -474,7 +477,7 @@ button {
   }
 
   .bio p {
-    border-top: 1px solid black;
+    border-top: 1px solid #5108B0;
   }
 
   .menu ul li a:hover {
@@ -491,9 +494,8 @@ button {
 
   #greetings {
     padding: 10px;
-
     font-size: 1em;
-    border: 1px solid black;
+    border: 1px solid #5108B0;
     border-radius: 5px;
   }
 
